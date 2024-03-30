@@ -1,0 +1,11 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .innerInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10px;
+  }
+}
