@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
 // DEV DEPENDENCIES
-import { QueryClientProvider, QueryClienter } from "@tanstack/react-query";
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
-const queryClient = new QueryClienter();
+const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
