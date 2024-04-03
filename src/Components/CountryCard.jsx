@@ -41,8 +41,10 @@ const CountryCard = ({ country }) => {
                   .join(", ")
               : "N/A"}
           </p>
+          <p className="continent">Continent: {country.continents}</p>
         </div>
         <img
+          loading="lazy"
           className="flag"
           src={country.flags && country.flags.svg}
           alt={country.flags && country.flags.alt}
