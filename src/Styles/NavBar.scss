@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  align-items: center;
+  min-height: 50px;
+
+  input {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
