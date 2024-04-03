@@ -9,3 +9,12 @@ export const handleFetch = async () => {
 export const handleTextInput = (event, setInputValue) => {
   setInputValue(event.target.value);
 };
+
+export const handleScroll = (setDisplayCount) => {
+  if (
+    window.innerHeight + document.documentElement.scrollTop >=
+    document.documentElement.offsetHeight
+  ) {
+    setDisplayCount((prev) => prev + 12);
+  }
+};
